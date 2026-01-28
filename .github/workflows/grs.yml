@@ -2,7 +2,6 @@ name: Update README Stats
 
 on:
   schedule:
-    # Runs at 03:00 UTC daily
     - cron: "0 3 * * *"
   workflow_dispatch:
 
@@ -18,14 +17,6 @@ jobs:
 
       - name: Create profile directory
         run: mkdir -p profile
-
-      - name: Generate stats card
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&theme=radical&include_all_commits=true&count_private=true
-          path: profile/stats.svg
-          token: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
 
       - name: Generate top languages card
         uses: readme-tools/github-readme-stats-action@v1
