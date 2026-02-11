@@ -7,10 +7,10 @@
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/trevorphillipscoding)
 
 <h2> Webite Projects </h2>
-[Portfolio](https://trevorphillips.dev)
-[iMDB Heatmap](https://imdb-heatmap.vercel.app)
+Portfolio: https://trevorphillips.dev
+iMDB Heatmap: https://imdb-heatmap.vercel.app
 
 <h2> Open source Projects </h2>
-[Blizzard API](https://github.com/trevorphillipscoding/python-blizzardapi)
+Blizzard API: https://github.com/trevorphillipscoding/python-blizzardapi
 
 </div>
