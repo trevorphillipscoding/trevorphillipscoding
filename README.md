@@ -8,6 +8,7 @@
 
 <h2> Webite Projects </h2>
 Portfolio: https://trevorphillips.dev
+
 iMDB Heatmap: https://imdb-heatmap.vercel.app
 
 <h2> Open source Projects </h2>
